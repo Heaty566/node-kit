@@ -2,9 +2,6 @@
         "name": "kit",
         "version": "1.0.0",
         "main": "index.ts",
-        "engines": {
-                "node": "12.19.0"
-        },
         "scripts": {
                 "start": "NODE_ENV=production  ts-node index.ts",
                 "start:dev": "NODE_ENV=development  nodemon --exec ts-node index.ts",
@@ -14,7 +11,7 @@
                 "test:watch": "NODE_ENV=test  jest  --watchAll --runInBand --detectOpenHandles",
                 "test:cov": "NODE_ENV=test  jest --coverage --runInBand --detectOpenHandles"
         },
-        "author": "",
+        "author": "heaty566 <heaty566@gmail.com>",
         "license": "ISC",
         "husky": {
                 "hooks": {
@@ -60,10 +57,7 @@
                 "morgan": "^1.10.0",
                 "winston": "^3.3.3"
         },
-        "repository": {
-                "type": "git",
-                "url": "git+https://github.com/Heaty566/node-kit.git"
-        },
+        "repository": "git+https://github.com/Heaty566/node-kit.git",
         "bugs": {
                 "url": "https://github.com/Heaty566/node-kit/issues"
         },
