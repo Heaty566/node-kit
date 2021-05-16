@@ -9,8 +9,8 @@ dotenv.config({
         ),
 });
 
-import { initProd } from "./prod";
-import { routers } from "./routes";
+import { initProd } from "./src/prod";
+import { routers } from "./src/routes";
 const app = express();
 
 initProd(app);
