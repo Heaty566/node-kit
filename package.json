@@ -13,12 +13,6 @@
         },
         "author": "heaty566 <heaty566@gmail.com>",
         "license": "ISC",
-        "husky": {
-                "hooks": {
-                        "pre-commit": "pretty-quick --staged",
-                        "pre-push": "npm run test"
-                }
-        },
         "devDependencies": {
                 "@types/compression": "^1.7.0",
                 "@types/connect-mongodb-session": "0.0.4",
@@ -57,10 +51,5 @@
                 "morgan": "^1.10.0",
                 "winston": "^3.3.3"
         },
-        "repository": "git+https://github.com/Heaty566/node-kit.git",
-        "bugs": {
-                "url": "https://github.com/Heaty566/node-kit/issues"
-        },
-        "homepage": "https://github.com/Heaty566/node-kit#readme",
-        "description": ""
+        "repository": "https://github.com/MonoInfinity/node-kit-ts.git"
 }
