@@ -3,10 +3,7 @@ import dotenv from "dotenv";
 import express from "express";
 
 dotenv.config({
-        path: path.resolve(
-                __dirname,
-                `./src/config/.env.${process.env.NODE_ENV}`
-        ),
+        path: path.resolve(__dirname, `./config/.env.${process.env.NODE_ENV}`),
 });
 
 import { initDb } from "./src/app/db";
