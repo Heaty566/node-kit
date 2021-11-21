@@ -24,5 +24,6 @@ if (!checkoutCmd) process.exit(-1);
 console.log('Install all dependencies');
 const installCmd = runCommand(installDepsCommand);
 if (!installCmd) process.exit(-1);
+
 console.log('----------------------------------------------');
 console.log(`%c Let's create your awesome server 🍀🍀🍀 `, 'color: #047867');
