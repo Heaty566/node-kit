@@ -1,6 +1,6 @@
 {
       "name": "mono-node-kit-ts",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "description": "A express server starter from scratch using Typescript, Jest",
       "bin": "./bin/cli.js",
       "scripts": {

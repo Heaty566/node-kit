@@ -14,12 +14,12 @@ const runCommand = (cmd) => {
 const repoName = process.argv[2];
 
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/MonoInfinity/mono-node-kit-ts.git ${repoName}`;
-// const installDepsCommand = `cd ${repoName} && npm install yarn -g && yarn install`;
+const installDepsCommand = `cd ${repoName} && npm install yarn -g && yarn install`;
 
 console.log('Cloning the repository');
-// const checkoutCmd = runCommand(gitCheckoutCommand);
-// if (!checkoutCmd) process.exit(-1);
+const checkoutCmd = runCommand(gitCheckoutCommand);
+if (!checkoutCmd) process.exit(-1);
 
-// console.log('Install all dependencies');
-// const installCmd = runCommand(installDepsCommand);
-// if (!installCmd) process.exit(-1);
+console.log('Install all dependencies');
+const installCmd = runCommand(installDepsCommand);
+if (!installCmd) process.exit(-1);
